@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Readex+Pro:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&display=swap");
+
+.container {
+  height: calc(100vh - 60px);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+
+/* ******************************************************** */
+
+
+
+.profileSide {
+  height: 100vh;
+  width: 320px;
+  margin: 10px;
+  background-color: rgb(0, 0, 0);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.iconName .SpotiftSymbol {
+  width: 135px;
+  margin: 21px 22px;
+}
+
+.iconName ul li a {
+  text-decoration: none;
+}
+.iconName .plaSide {
+  list-style: none;
+  padding: 15px 10px 3px 15px;
+  margin: 10px 10px 2px 4px;
+  display: flex;
+  justify-content: start;
+  border-radius: 3px;
+}
+.iconName .plaSide img {
+  background-color: wheat;
+}
+hr {
+  margin: 10px;
+}
+.repeateOpt {
+  margin: 30px;
+}
+.repeateOpt h3 {
+  margin: 10px auto 15px;
+}
+.repeateOpt p {
+  margin: 6px auto;
+}
+.repeateOpt a:hover {
+  background-color: black;
+  font-weight: 900;
+}
+
+/* ******************************************************** */
+
+.mainBody {
+  /* height: 100vh; */
+  width: 1020px;
+  background: linear-gradient(to bottom, rgb(7, 7, 241), rgb(32, 32, 32) 30%);
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.topLine {
+  background-color: black;
+  height: 60px;
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.5;
+}
+.topLine a:hover {
+  color: whitesmoke;
+}
+.backForth button {
+  margin: 7px;
+  padding: 6px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.options button {
+  background-color: rgb(32, 32, 32);
+  border-radius: 40px;
+  padding: 10px 20px 10px 20px;
+  margin: auto 2px;
+  border: 2px solid rgb(255, 255, 255);
+}
+.options button a {
+  background-color: rgb(32, 32, 32);
+  color: rgb(185, 189, 189);
+}
+
+.HeadIMg {
+  height: 40vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  opacity: 0.5;
+}
+.HeadIMg h1 {
+  font-size: 7vw;
+  font-family: "Nova Square", cursive;
+  color: rgb(0, 255, 0);
+}
+.TimeFav {
+  margin: 30px 3px 10px;
+  font-family: "Nova Square", cursive;
+}
+.TimeFav h2 {
+  margin: 50px 25px 40px;
+  font-weight: 900;
+}
+.TimeFav1 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 4px;
+  height: 160px;
+  overflow-y: hidden;
+}
+.TimeFav1 .repeatSongs {
+  background-color: rgb(47, 47, 49);
+  width: 280px;
+  border-radius: 10px;
+  font-weight: 900;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.TimeFav1 .repeatSongs a {
+  background-color: rgb(47, 47, 49);
+}
+.TimeFav1 .repeatSongs .hidePlayOpt {
+  background-color: rgb(47, 47, 49);
+  opacity: 0;
+}
+.repeatSongs:hover .hidePlayOpt{
+  background-color: rgb(47, 47, 49);
+  opacity: 1;
+}
+.topLists {
+  margin-top: 10px;
+  padding: 10px;
+}
+.songListLines {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.songlists {
+  height: 290px;
+  background-color: rgb(54, 52, 52);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: start;
+}
+.songlists img {
+  background-color: rgb(54, 52, 52);
+  margin: auto;
+  margin-top: 3px;
+}
+.songlists .hidePlayOpt {
+  background-color: rgb(54, 52, 52);
+  margin: auto;
+}
+.songlists h4 {
+  background-color: rgb(54, 52, 52);
+  margin: 10px 3px auto;
+  font-size: 18px;
+  font-weight: 900;
+}
+.songlists p {
+  background-color: rgb(54, 52, 52);
+  margin: 10px 3px 10px;
+  font-size: 12px;
+  font-weight: 900;
+  display: flex;
+  justify-content:flex-end;
+}
+.songlists .hidePlayOpt {
+  background-color: rgb(54, 52, 52);
+ opacity: 0;
+}
+.songlists:hover .hidePlayOpt {
+  background-color: rgb(54, 52, 52);
+ opacity: 1;
+}
+
+/* ******************************************************** */
+
+.friendActivity {
+  height: 100vh;
+  width: 320px;
+  background-color: rgb(0, 0, 0);
+  margin: 20px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.friendHead {
+  margin: 15px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.friendHead h4 {
+  font-family: "Lato", sans-serif;
+}
+.listeningCall {
+  text-align: center;
+}
+.listeningCall p {
+  max-width: 350px;
+  /* padding: 4px auto; */
+  font-family: "Lato", sans-serif;
+}
+.peoples {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+}
+
+/* ******************************************************** */
+
+.fotter {
+  height: 60px ;
+  /* padding: 4px; */
+  position: sticky;
+  bottom: 0;
+  background-color: #090909;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.fotter #inputRange {
+  width: 60vw;
+  cursor: pointer;
+}
+.playOptions{
+  cursor: pointer;
+  margin: 5px;
+  /* display: flex;
+  justify-content: space-around; */
+}
+
+.songInfo{
+  position: absolute;
+  left: 15vw;
+  font-family: "Readex Pro", sans-serif;
+}
+
+.songInfo .wave{
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+
+
+/* ******************************************************** */
+@media screen and (max-width:700px) {
+  .profileSide{
+    display: none;
+  }
+  .friendActivity{
+    display: none;
+  }
+  .songName{
+    display: none;
+  }
+}
